@@ -25,6 +25,7 @@ class Form {
     this.reset.mousePressed(()=>{
   game.update(0 )
   player.updateCount(0)
+  Player.updateCars(0)
   database.ref('/').update({
     players:null
   })

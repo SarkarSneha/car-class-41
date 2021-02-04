@@ -39,4 +39,7 @@ function draw(){
 if(gameState===2){
   game.end()
 }
+if(player.rank===4){
+  game.update(2)
+}
 }
