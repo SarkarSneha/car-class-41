@@ -11,9 +11,9 @@ var form, player, game;
 var cars, car1, car2, car3, car4;
 
 function preload(){
-  car1img=loadImage("car1.png")
-  car2img=loadImage("car2.png")
-  car3img=loadImage("car3.png")
+  car1img=loadImage("../car1.png")
+  car2img=loadImage("../car2.png")
+  car3img=loadImage("../car3.png")
   car4img=loadImage("car4.png")
   gr=loadImage("ground.png")
   trackIMG=loadImage("track.jpg")
